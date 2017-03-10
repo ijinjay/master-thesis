@@ -25,5 +25,14 @@ foreach(Hand hand in frame.Hands) {
 使用DetectorLogicGate脚本来组合复杂的Detector，一个逻辑门可以包括任意数量的其他检测器作为输入并输出一个boolean，可以分发OnActivate和OnDeactive事件。
 
 
+### LeapMotion 官方提供的检测器
+1. `PinchDetector`捏放
+2. `ProximityDetector` 接近
+3. `PalmDirectionDetector` 手掌方向
+4. `FingerDirectionDetector` 手指伸展
+5. `DetectorLogicGate` 组合门
+
+将Detector附着在Hand上出发状态。
+
 
 
